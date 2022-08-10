@@ -1,0 +1,108 @@
+.navContainer{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+.mainNav{
+    margin: 10px 0px!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.linkColor{
+    color: black!important;
+    padding: 8px!important;
+    display: block;
+    
+}
+.DesktopMenu ul li {
+    margin: 0px 10px;
+    color: #3A4256;
+    border-radius: 2px;
+
+}
+.DesktopMenu ul li:hover{
+    background-color: #17D2BE;
+    color: white;
+}
+.DesktopMenu ul li .linkColor:hover{
+    color: white!important;
+}
+.hamburger{
+    display: none;
+}
+.MobileMenu{
+    position: fixed;
+    right: 0px;
+    padding: 20px;
+    width: 100%;
+    top: 40px;
+    transform: translateX(100%);
+    transition: all 0.5s;
+    text-align:center;
+    background-color: white;
+    border-top: 1px solid rgb(199, 196, 196);
+}
+.activeNave{
+    transform: translateX(0%);
+}
+.MobileMenu ul li {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .DesktopMenu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .DesktopMenu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .DesktopMenu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra extra  large devices (larges desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+}

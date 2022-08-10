@@ -1,0 +1,15 @@
+.authinfo{
+    color: none;
+    box-shadow: none;
+}
+.authinfo:focus{
+    box-shadow: none;
+}
+.singup{
+    height: 100vh;
+}
+.forminfo{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

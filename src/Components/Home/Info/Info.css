@@ -1,0 +1,13 @@
+.mainInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #17D2BE 60%, #11D0DF);
+    color: white;
+    padding: 5px;
+    height: 130px;
+    border-radius: 5px;
+}
+.extrabackground{
+    background: #3A4256!important;
+}

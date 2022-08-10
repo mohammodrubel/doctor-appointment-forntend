@@ -1,0 +1,15 @@
+.contactUs{
+    padding: 30px 0px;
+    background-image: url(../../img/images/appointment.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.customInput{
+    border: none!important;
+    /* border-radius: 0; */
+}
+.customInput:focus{
+    color: none;
+    box-shadow: none;
+}

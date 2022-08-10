@@ -1,0 +1,6 @@
+.admininput{
+    box-shadow: none!important;
+}
+.admininput:hover{
+    box-shadow: none;
+}

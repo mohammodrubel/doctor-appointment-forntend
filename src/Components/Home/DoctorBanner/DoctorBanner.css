@@ -1,0 +1,7 @@
+.appointment{
+    background-image: url(../../img/images/appointment.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 150px 0px;
+}
